@@ -7,35 +7,17 @@
   "vim.vimrc.enable": true,
   "vim.insertModeKeyBindings": [
     {
-      "before": [
-        "z",
-        "s"
-      ],
-      "commands": [
-        "editor.action.triggerSuggest"
-      ]
+      "before": ["z", "s"],
+      "commands": ["editor.action.triggerSuggest"]
     },
     {
-      "before": [
-        "z",
-        "n"
-      ],
-      "after": [
-        "<Esc>"
-      ],
-      "commands": [
-        "editor.action.marker.next"
-      ]
+      "before": ["z", "n"],
+      "after": ["<Esc>"],
+      "commands": ["editor.action.marker.next"]
     },
     {
-      "before": [
-        "z",
-        "r",
-        "a",
-      ],
-      "after": [
-        "<Esc>"
-      ],
+      "before": ["z", "r", "a"],
+      "after": ["<Esc>"],
       "commands": [
         "prettier.forceFormatDocument",
         "workbench.action.files.saveAll",
@@ -43,62 +25,34 @@
       ]
     },
     {
-      "before": [
-        "z",
-        ".",
-      ],
-      "after": [
-        "<Esc>"
-      ],
-      "commands": [
-        "editor.action.quickFix"
-      ]
-    },
+      "before": ["z", "."],
+      "after": ["<Esc>"],
+      "commands": ["editor.action.quickFix"]
+    }
   ],
   "vim.normalModeKeyBindings": [
     {
-      "before": [
-        "g",
-        "r"
-      ],
-      "commands": [
-        "editor.action.goToReferences"
-      ]
+      "before": [",", "m"],
+      "commands": ["workbench.action.gotoSymbol"]
     },
     {
-      "before": [
-        "z",
-        "n"
-      ],
-      "commands": [
-        "editor.action.marker.next"
-      ]
+      "before": ["g", "r"],
+      "commands": ["editor.action.goToReferences"]
     },
     {
-      "before": [
-        "z",
-        "r",
-        "r",
-      ],
-      "commands": [
-        "editor.action.rename"
-      ]
+      "before": ["z", "n"],
+      "commands": ["editor.action.marker.next"]
     },
     {
-      "before": [
-        "z",
-        ".",
-      ],
-      "commands": [
-        "editor.action.quickFix"
-      ]
+      "before": ["z", "r", "r"],
+      "commands": ["editor.action.rename"]
     },
     {
-      "before": [
-        "z",
-        "r",
-        "a",
-      ],
+      "before": ["z", "."],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["z", "r", "a"],
       "commands": [
         "prettier.forceFormatDocument",
         "workbench.action.files.saveAll",
@@ -108,18 +62,11 @@
   ],
   "vim.visualModeKeyBindings": [
     {
-      "before": [
-        "z",
-        ".",
-      ],
-      "commands": [
-        "editor.action.quickFix"
-      ]
+      "before": ["z", "."],
+      "commands": ["editor.action.quickFix"]
     },
     {
-      "before": [
-        "M",
-      ],
+      "before": ["M"],
       "commands": [
         {
           "command": "editor.action.codeAction",
@@ -128,6 +75,6 @@
           }
         }
       ]
-    },
-  ],
+    }
+  ]
 }
