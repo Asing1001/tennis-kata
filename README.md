@@ -2,6 +2,12 @@
 
 [Youtube video instruction](https://youtu.be/6lEIFl30JEE)
 
+## Installed Extentions
+
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
+- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+
 ## VSCode Configs
 
 ### setting.json
