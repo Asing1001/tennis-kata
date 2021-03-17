@@ -1,3 +1,133 @@
 {
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "vim.foldfix": true,
+  "vim.useSystemClipboard": true,
+  "vim.autoindent": true,
+  "vim.vimrc.path": "~/.vscodevimrc",
+  "vim.vimrc.enable": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "z",
+        "s"
+      ],
+      "commands": [
+        "editor.action.triggerSuggest"
+      ]
+    },
+    {
+      "before": [
+        "z",
+        "n"
+      ],
+      "after": [
+        "<Esc>"
+      ],
+      "commands": [
+        "editor.action.marker.next"
+      ]
+    },
+    {
+      "before": [
+        "z",
+        "r",
+        "a",
+      ],
+      "after": [
+        "<Esc>"
+      ],
+      "commands": [
+        "prettier.forceFormatDocument",
+        "workbench.action.files.saveAll",
+        "workbench.action.focusFirstEditorGroup"
+      ]
+    },
+    {
+      "before": [
+        "z",
+        ".",
+      ],
+      "after": [
+        "<Esc>"
+      ],
+      "commands": [
+        "editor.action.quickFix"
+      ]
+    },
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "g",
+        "r"
+      ],
+      "commands": [
+        "editor.action.goToReferences"
+      ]
+    },
+    {
+      "before": [
+        "z",
+        "n"
+      ],
+      "commands": [
+        "editor.action.marker.next"
+      ]
+    },
+    {
+      "before": [
+        "z",
+        "r",
+        "r",
+      ],
+      "commands": [
+        "editor.action.rename"
+      ]
+    },
+    {
+      "before": [
+        "z",
+        ".",
+      ],
+      "commands": [
+        "editor.action.quickFix"
+      ]
+    },
+    {
+      "before": [
+        "z",
+        "r",
+        "a",
+      ],
+      "commands": [
+        "prettier.forceFormatDocument",
+        "workbench.action.files.saveAll",
+        "workbench.action.focusFirstEditorGroup"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        "z",
+        ".",
+      ],
+      "commands": [
+        "editor.action.quickFix"
+      ]
+    },
+    {
+      "before": [
+        "M",
+      ],
+      "commands": [
+        {
+          "command": "editor.action.codeAction",
+          "args": {
+            "kind": "refactor.extract.function"
+          }
+        }
+      ]
+    },
+  ],
 }
