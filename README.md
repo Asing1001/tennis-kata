@@ -29,8 +29,6 @@ nmap z; $a;<Esc>
 imap z; <Esc>$a;
 
 imap jj <Esc>
-nmap hh ^
-nmap ll $
 
 imap zp <CR><Esc>y?test(<CR>Pf'lzz
 nmap zp o<Esc>y?test(<CR>Pf'lzz
