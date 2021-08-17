@@ -8,11 +8,11 @@
 - [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 
-## VSCode Configs
+## Setup VSCode Configs
 
 ### setting.json
 
-Locate at [.vscode/settings.json](.vscode/settings.json), you could save it to your settings via `cmd+shift+p` > `Preferences: Open Settings (JSON)`
+Copy [.vscode/settings.json](.vscode/settings.json) to your `settings.json` via `cmd+shift+p` > `Preferences: Open Settings (JSON)`
 
 ### ~/.vscodevimrc
 
